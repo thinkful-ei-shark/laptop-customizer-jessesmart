@@ -1,5 +1,6 @@
 import React from "react";
 import Category from "./Category";
+import features from "../store";
 
 function Customizer(props) {
   const features = Object.keys(props.features).map((feature, idx) => {
